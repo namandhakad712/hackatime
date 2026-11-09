@@ -4,8 +4,8 @@ sidebar: { icon: "/images/editor-icons/deepseek-harness-32.webp" }
 ---
 ![DeepSeek Harness](../../public/images/editor-icons/deepseek-harness-128.png)
 
-DeepSeek Harness (DSH) is an AI coding agent powered by the Atria model. You can
-track the time you spend working in it with Hackatime.
+DeepSeek Harness (DSH) is an AI coding agent. You can track the time you spend
+working in it with Hackatime, counted under the **AI Coding** category.
 
 ## Step 1: Log into Hackatime
 
@@ -13,8 +13,7 @@ Make sure you have a [Hackatime account](https://hackatime.hackclub.com) and are
 
 ## Step 2: Get your API key
 
-Visit your [API settings page](https://hackatime.hackclub.com/api) and copy your
-Hackatime API key.
+Visit your [API key page](https://hackatime.hackclub.com/api-key) and copy your Hackatime API key.
 
 ## Step 3: Install the plugin
 
@@ -34,8 +33,8 @@ api_key = your-hackatime-api-key
 api_url = https://hackatime.hackclub.com/api/hackatime/v1
 ```
 
-The plugin sends a heartbeat for each message, tool call, and file edit, so your
-DeepSeek Harness sessions show up on your dashboard as `DeepSeek Harness`.
+The plugin sends a heartbeat for each message, tool call, and file edit it
+performs, classified as AI coding.
 
 ## Troubleshooting
 
